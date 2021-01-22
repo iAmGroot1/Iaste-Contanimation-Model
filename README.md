@@ -22,7 +22,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-4. If virtualenv is not installed the pip will install the packages globally. To do this run the following code:
+4. If virtualenv is not installed then pip will install the packages globally. To do this run the following code:
 ```
 pip install -r requirements.txt
+```
+5. An error may show up but all the required packages will already be installed successfully.
+6. To run the server without connecting to database go back to the main directory and run :
+```
+npm run fast-start
 ```

@@ -29,5 +29,6 @@ pip install -r requirements.txt
 5. An error may show up but all the required packages will already be installed successfully.
 6. To run the server without connecting to database go back to the main directory and run :
 ```
+deactivate
 npm run fast-start
 ```

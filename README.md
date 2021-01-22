@@ -8,7 +8,7 @@ A platform which determines the contanimation of a particular region
 4. python : v3.8 or higher
 
 ## Optional Requirements :
-1. virtualenv(python) : v8.30  --- 
+1. virtualenv(python) : v8.30  --- To install the python packages in a virtual environment rather than globally
 
 ## Instruction to download and run on desktop
 1. First clone and install all the files on the required desktop
@@ -33,7 +33,7 @@ deactivate
 npm run fast-start
 ```
 7. This code is tested on linux so couple of things need attention :
-  * If the code doesnt work on windows or macOS then the problem is in main.py file and the syntax of path might now be correct
+  * If the code doesnt work on windows or macOS then the problem is in main.py file and the syntax of path might not be correct
   * If connection to database is required then in config folder changes need to done to the mongoURI
   * To run the server connected to the database run ```npm start```
   * The routes/api is for the REST API use so can be modified depending on the required task

@@ -1,5 +1,5 @@
 # Iaste-Contanimation-Model
-A platform which determines the contanimation of a particular region 
+A platform which determines the contanimation of a particular region (In progress)
 
 ## System Requirements :
 1. Node.js : v10.19.0 or higher

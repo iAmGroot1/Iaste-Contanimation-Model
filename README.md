@@ -32,3 +32,9 @@ pip install -r requirements.txt
 deactivate
 npm run fast-start
 ```
+7. This code is tested on linux so couple of things need attention :
+  * If the code doesnt work on windows or macOS then the problem is in main.py file and the syntax of path might now be correct
+  * If connection to database is required then in config folder changes need to done to the mongoURI
+  * To run the server connected to the database run ```npm start```
+  * The routes/api is for the REST API use so can be modified depending on the required task
+
